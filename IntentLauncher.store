@@ -1,0 +1,511 @@
+--intent launcher
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.170431212, 0, 0.165473342, 0)
+Frame.Size = UDim2.new(0, 1555, 0, 650)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Frame_2.Size = UDim2.new(0, 1555, 0, 78)
+
+ImageLabel.Parent = Frame_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.484818071, 0, 0.082997635, 0)
+ImageLabel.Size = UDim2.new(0, 46, 0, 44)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=11903540823"
+
+ImageLabel_2.Parent = Frame_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.971061051, 0, 0.0512820557, 0)
+ImageLabel_2.Size = UDim2.new(0, 46, 0, 44)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=483040244"
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.870994806, 0, 0.0350601859, 0)
+TextLabel.Size = UDim2.new(0, 176, 0, 50)
+TextLabel.Font = Enum.Font.Arial
+TextLabel.Text = "INTENT USER"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Frame_3.Position = UDim2.new(0, 0, 0.088124454, 0)
+Frame_3.Size = UDim2.new(0, 177, 0, 465)
+
+TextLabel_2.Parent = Frame_3
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_2.Font = Enum.Font.Arial
+TextLabel_2.Text = "ZERODAY"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 25.000
+
+TextLabel_3.Parent = Frame_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.0946236551, 0)
+TextLabel_3.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_3.Font = Enum.Font.Arial
+TextLabel_3.Text = "MONSOON"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 25.000
+
+TextLabel_4.Parent = Frame_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.00564971752, 0, 0.202150539, 0)
+TextLabel_4.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_4.Font = Enum.Font.Arial
+TextLabel_4.Text = "KAWAII"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 25.000
+
+TextLabel_5.Parent = Frame_3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.00564971752, 0, 0.316129029, 0)
+TextLabel_5.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_5.Font = Enum.Font.Arial
+TextLabel_5.Text = "TENACITY"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 25.000
+
+TextLabel_6.Parent = Frame_3
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.00564971752, 0, 0.423655927, 0)
+TextLabel_6.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_6.Font = Enum.Font.Arial
+TextLabel_6.Text = "VOIDED"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 25.000
+
+TextLabel_7.Parent = Frame_3
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.00564971752, 0, 0.518279552, 0)
+TextLabel_7.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_7.Font = Enum.Font.Arial
+TextLabel_7.Text = "MOROPHELES"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 25.000
+
+TextLabel_8.Parent = Frame_3
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0, 0, 0.625806451, 0)
+TextLabel_8.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_8.Font = Enum.Font.Arial
+TextLabel_8.Text = "RISE"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 25.000
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Frame_4.Position = UDim2.new(0, 0, 0.620085061, 0)
+Frame_4.Size = UDim2.new(0, 1555, 0, 332)
+
+ImageLabel_3.Parent = Frame_4
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.795498371, 0, 0, 0)
+ImageLabel_3.Size = UDim2.new(0, 270, 0, 223)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=11904589033"
+
+TextLabel_9.Parent = Frame_4
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.820834041, 0, 0.64519304, 0)
+TextLabel_9.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_9.Font = Enum.Font.Arial
+TextLabel_9.Text = "Intent Forum"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 46.000
+
+TextLabel_10.Parent = Frame_4
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.825147569, 0, 0.739760816, 0)
+TextLabel_10.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_10.Font = Enum.Font.Arial
+TextLabel_10.Text = "Solve problems, suggest features, and"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 18.000
+
+TextLabel_11.Parent = Frame_4
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.825147569, 0, 0.815061986, 0)
+TextLabel_11.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_11.Font = Enum.Font.Arial
+TextLabel_11.Text = "participate in the intent community"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 18.000
+
+ImageLabel_4.Parent = Frame_4
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(0.536334395, 0, 0, 0)
+ImageLabel_4.Size = UDim2.new(0, 270, 0, 223)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=11904593520"
+
+TextLabel_12.Parent = Frame_4
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.566171646, 0, 0.587964118, 0)
+TextLabel_12.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_12.Font = Enum.Font.Arial
+TextLabel_12.Text = "NoRules Network"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 46.000
+
+TextLabel_13.Parent = Frame_4
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.565983593, 0, 0.703616202, 0)
+TextLabel_13.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_13.Font = Enum.Font.Arial
+TextLabel_13.Text = "A minigame server designed just for you to enjoy"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 18.000
+
+TextLabel_14.Parent = Frame_4
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.565983593, 0, 0.760845125, 0)
+TextLabel_14.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_14.Font = Enum.Font.Arial
+TextLabel_14.Text = "your clients without being risk of being banned. Join at"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 18.000
+
+TextLabel_15.Parent = Frame_4
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.565983653, 0, 0.815062046, 0)
+TextLabel_15.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_15.Font = Enum.Font.Arial
+TextLabel_15.Text = "play.norules.wtf"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 18.000
+
+ImageLabel_5.Parent = Frame_4
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.Position = UDim2.new(0.31061092, 0, -0.0271084346, 0)
+ImageLabel_5.Size = UDim2.new(0, 270, 0, 223)
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=11904596150"
+
+TextLabel_16.Parent = Frame_4
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.328872621, 0, 0.587964118, 0)
+TextLabel_16.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_16.Font = Enum.Font.Arial
+TextLabel_16.Text = "Team Intent Apparel"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 46.000
+
+TextLabel_17.Parent = Frame_4
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.320324451, 0, 0.703616202, 0)
+TextLabel_17.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_17.Font = Enum.Font.Arial
+TextLabel_17.Text = "If you ever wanted to wear a shirt or hoodie"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 18.000
+
+TextLabel_18.Parent = Frame_4
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.320324451, 0, 0.760845125, 0)
+TextLabel_18.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_18.Font = Enum.Font.Arial
+TextLabel_18.Text = "showing off your support of ZeroDay, Team"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 18.000
+
+TextLabel_19.Parent = Frame_4
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.316465944, 0, 0.815061986, 0)
+TextLabel_19.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_19.Font = Enum.Font.Arial
+TextLabel_19.Text = "Intent, and other Intent.Store partners, you have"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 18.000
+
+TextLabel_20.Parent = Frame_4
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.316465944, 0, 0.872290909, 0)
+TextLabel_20.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_20.Font = Enum.Font.Arial
+TextLabel_20.Text = "come to the right place."
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 18.000
+
+ImageLabel_6.Parent = Frame_4
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.Position = UDim2.new(0.05659163, 0, -0.0090361461, 0)
+ImageLabel_6.Size = UDim2.new(0, 270, 0, 223)
+ImageLabel_6.Image = "http://www.roblox.com/asset/?id=11904597697"
+
+TextLabel_21.Parent = Frame_4
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.0864288956, 0, 0.609048426, 0)
+TextLabel_21.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_21.Font = Enum.Font.Arial
+TextLabel_21.Text = "Project ZeroBot"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 46.000
+
+TextLabel_22.Parent = Frame_4
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.086240828, 0, 0.721688509, 0)
+TextLabel_22.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_22.Font = Enum.Font.Arial
+TextLabel_22.Text = "I was too lazy to write the full thing out"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 18.000
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Frame_5.Position = UDim2.new(0.113747038, 0, 0.089041099, 0)
+Frame_5.Size = UDim2.new(0, 718, 0, 343)
+
+ImageLabel_7.Parent = Frame_5
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.Position = UDim2.new(0.999963343, 0, 0.00752381422, 0)
+ImageLabel_7.Size = UDim2.new(0, 660, 0, 342)
+ImageLabel_7.Image = "http://www.roblox.com/asset/?id=11903590891"
+
+ImageLabel_8.Parent = ImageLabel_7
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.Position = UDim2.new(-0.36735034, 0, 0.311827987, 0)
+ImageLabel_8.Size = UDim2.new(0, 299, 0, 150)
+ImageLabel_8.Image = "http://www.roblox.com/asset/?id=11903571931"
+
+TextLabel_23.Parent = Frame_5
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.15459609, 0, 0.163265318, 0)
+TextLabel_23.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_23.Font = Enum.Font.Arial
+TextLabel_23.Text = "ZeroDay b22.2"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 46.000
+
+TextLabel_24.Parent = Frame_5
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.093314752, 0, 0.309037924, 0)
+TextLabel_24.Size = UDim2.new(0, 176, 0, 50)
+TextLabel_24.Font = Enum.Font.Arial
+TextLabel_24.Text = "Updated 2 hours ago"
+TextLabel_24.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel_24.TextSize = 22.000
+
+TextLabel_25.Parent = Frame_5
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0.0766016766, 0, 0.39358601, 0)
+TextLabel_25.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_25.Font = Enum.Font.Arial
+TextLabel_25.Text = "Zeroday is one of @robloxintents"
+TextLabel_25.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel_25.TextSize = 18.000
+
+TextLabel_26.Parent = Frame_5
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0.137883022, 0, 0.4548105, 0)
+TextLabel_26.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_26.Font = Enum.Font.Arial
+TextLabel_26.Text = "many scripts for a few games you might play!"
+TextLabel_26.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel_26.TextSize = 18.000
+
+TextLabel_27.Parent = Frame_5
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0.137883022, 0, 0.507288635, 0)
+TextLabel_27.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_27.Font = Enum.Font.Arial
+TextLabel_27.Text = "We suggest you ZeroDay as it is always hard"
+TextLabel_27.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel_27.TextSize = 18.000
+
+TextLabel_28.Parent = Frame_5
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(0.137883022, 0, 0.556851268, 0)
+TextLabel_28.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_28.Font = Enum.Font.Arial
+TextLabel_28.Text = "worked on and the devs would appreciate it."
+TextLabel_28.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel_28.TextSize = 18.000
+
+TextLabel_29.Parent = Frame_5
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(0.0766016766, 0, 0.653061152, 0)
+TextLabel_29.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_29.Font = Enum.Font.Arial
+TextLabel_29.Text = "Supported Executors"
+TextLabel_29.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel_29.TextSize = 18.000
+
+TextLabel_30.Parent = Frame_5
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(0.137883022, 0, 0.720116675, 0)
+TextLabel_30.Size = UDim2.new(0, 119, 0, 50)
+TextLabel_30.Font = Enum.Font.Arial
+TextLabel_30.Text = "Synapse X Scriptware Krnl (not perfect)"
+TextLabel_30.TextColor3 = Color3.fromRGB(198, 198, 198)
+TextLabel_30.TextSize = 18.000
+
+TextButton.Parent = Frame_5
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 171, 83)
+TextButton.Position = UDim2.new(0.0557103083, 0, 0.830903888, 0)
+TextButton.Size = UDim2.new(0, 229, 0, 50)
+TextButton.Font = Enum.Font.Arial
+TextButton.Text = "Load ZeroDay"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 25.000
+TextButton.MouseButton1Down:connect(function()
+	print('hi')
+end)
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.000643086794, 0, 0.00153846154, 0)
+TextButton_2.Size = UDim2.new(0, 82, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "X"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_2.TextSize = 32.000
+
+-- Scripts:
+
+local function XODLL_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(XODLL_fake_script)()
+local function TALCF_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local MainFrame = script.Parent.Frame
+	local Opened = false
+	local PositionClosed = UDim2.new()
+	local PositionOpened= UDim2.new()
+end
+coroutine.wrap(TALCF_fake_script)()
+local function RTWE_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(RTWE_fake_script)()
